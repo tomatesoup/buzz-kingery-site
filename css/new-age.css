@@ -157,22 +157,19 @@ header.masthead {
 
 section.download {
   position: relative; }
+  section.download .col-lg-6 {
+    align-self: center; }
   section.download h2 {
     font-size: 50px;
     margin: 0 0 2rem; }
   section.download img {
     max-height: 250px;
-    border-radius: 100%;
-    margin-left: 2.5em; }
-  section.download .media-body {
-    text-align: left; }
-  section.download .media-body p + p {
-    margin-bottom: 0; }
-  section.download .media-right {
-    align-self: center; }
+    border-radius: 100%; }
   @media (min-width: 768px) {
     section.download h2 {
-      font-size: 70px; } }
+      font-size: 70px; }
+    section.download p {
+      text-align: left; } }
 
 section.features .section-heading {
   margin-bottom: 100px; }

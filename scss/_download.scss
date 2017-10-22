@@ -1,6 +1,9 @@
 // Styling for the download section
 section.download {
   position: relative;
+  .col-lg-6 {
+    align-self: center;
+  }
   h2 {
     font-size: 50px;
     margin: 0 0 2rem;
@@ -8,20 +11,13 @@ section.download {
   img {
     max-height: 250px;
     border-radius: 100%;
-    margin-left: 2.5em;
-  }
-  .media-body {
-    text-align: left;
-  }
-  .media-body p + p {
-    margin-bottom: 0;
-  }
-  .media-right {
-    align-self: center;
   }
   @media(min-width: 768px) {
     h2 {
         font-size: 70px;
+    }
+    p {
+      text-align: left;
     }
   }
 }
